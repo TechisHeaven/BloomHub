@@ -11,7 +11,7 @@ import { GrNext } from "react-icons/gr";
 export default function StorySelector() {
   const journalRef = React.useRef(null);
   return (
-    <div className="p-2 ">
+    <div className="p-2 max-w-[1200px] m-auto">
       <Draggable rootClass={"drag"}>
         <div
           className="wrapper overflow-x-auto no-scrollbar flex items-center gap-4 justify-start px-4 p-2 relative"

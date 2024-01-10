@@ -26,7 +26,7 @@ import {
 
 export default function Header() {
   return (
-    <div className=" p-2 px-4 flex flex-row justify-between border-b-2 sticky top-0 items-center">
+    <div className=" p-2 px-4 flex flex-row justify-between border-b-2  items-center">
       <Link href={"/"} className="text-2xl flex gap-2">
         <p>BloomHub</p>
       </Link>
